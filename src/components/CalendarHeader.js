@@ -1,7 +1,7 @@
 import React from "react";
 
 const CalendarHeader = () => {
-  return <div>CalendarHeader</div>;
+  return <header>CalendarHeader</header>;
 };
 
 export default CalendarHeader;

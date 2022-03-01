@@ -13,6 +13,7 @@ const Labels = () => {
             onClick={() => updateLabel({ label: lbl, checked: !checked })}
             checked={checked}
             className={`form-checkbox h-5 w-5 text-${lbl}-400 rounded focus:ring-0 cursor-pointer`}
+            readOnly
           />
           <span className="ml-2 text-gray-700 capitalize">{lbl}</span>
         </label>
